@@ -4,10 +4,11 @@
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: auto;
+    z-index: -1;
     opacity: .15;
     overflow: hidden;
-    &_content {
+
+    &__content {
         height: 100%;
         width: 100%;
         object-fit: cover;
